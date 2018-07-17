@@ -25,6 +25,7 @@ public class IFrames {
        driver.findElement(By.xpath("//input[@id='btnlogin']")).click();
        driver.findElement(By.linkText("More")).click();
        driver.findElement(By.linkText("Iframes")).click();
+		//fygtytedftgug
       
       
        driver.switchTo().frame(driver.findElement(By.xpath("//input[@id='more-tab']/div/div[1]/iframe")));
